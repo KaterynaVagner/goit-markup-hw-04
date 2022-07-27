@@ -163,11 +163,13 @@ body {
 :focus {
   color: var(--accent-color);
 }
-.phone-icon {
-  fill: #757575;
+.icon-phone {
+  fill: currentColor;
+  margin-right: 10px;
 }
 .icon-letter {
-  fill: #2196f3;
+  fill: currentColor;
+  margin-right: 10px;
 }
 
 /*=============================/PHONE CONTACT===============================*/
