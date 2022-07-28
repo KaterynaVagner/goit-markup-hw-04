@@ -111,7 +111,7 @@ body {
   /* padding-bottom: 32px;*/
 }
 .site-nav:hover,
-:focus {
+.site-nav:focus {
   color: var(--accent-color);
 }
 
@@ -123,7 +123,7 @@ body {
   color: var(--accent-color);
 }
 .site-nav-studio:hover,
-:focus {
+.site-nav-studio:focus {
   color: #000;
 }
 /*=================================/SAIT NAV=================================== */
@@ -160,7 +160,7 @@ body {
   color: #757575;
 }
 .auth-nav-phone:hover,
-:focus {
+.auth-nav-phone:focus {
   color: var(--accent-color);
 }
 .icon-phone {
@@ -223,7 +223,7 @@ body {
   padding-left: 32px;
 }
 .hero-button:hover,
-:focus {
+.hero-button:focus {
   background-color: #188ce8;
 }
 /*=============================/HERO BUTTON=========================================== */
@@ -414,7 +414,7 @@ body {
 
 /*===================== <!--REGULAR CLIENT-->=================================*/
 .regular-client-style {
-  color: #f5f5f5;
+  background-color: #ffffff;
 }
 
 .regular-client-text {
@@ -438,7 +438,7 @@ body {
   height: 92px;
   border: 1px solid #afb1b8;
   border-radius: 4px;
-  background-color: #f5f5f5;
+  background-color: #ffffff;
 }
 
 .button-regular-client:hover,
@@ -636,7 +636,7 @@ body {
 }
 
 .site-nav:hover,
-:focus {
+.site-nav:focus {
   color: var(--accent-color);
 }
 
@@ -650,7 +650,7 @@ body {
 }
 
 .site-nav-portfolio:hover,
-:focus {
+.site-nav-portfolio:focus {
   color: #000;
 }
 /*=================================portfolio-nav========================================*/
@@ -665,7 +665,7 @@ body {
 }
 
 .portfolio-nav-email:hover,
-:focus {
+.portfolio-nav-email:focus {
   color: var(--accent-color);
 }
 
@@ -679,7 +679,7 @@ body {
 }
 
 .portfolio-nav-phone:hover,
-:focus {
+.portfolio-nav-phone:focus {
   color: var(--accent-color);
 }
 /*==================/HEADER==========================*/
@@ -728,10 +728,15 @@ body {
   background-color: #f5f4fa;
 }
 
-.next-button:hover,
-:focus {
+.next-button:hover.next-button,
+.next-button:focus.next-button {
+  color: #f5f4fa;
   background-color: var(--accent-color);
 }
+/*.next-button:hover,
+.next-button:focus {
+  background-color: var(--accent-color);
+}*/
 .page-two {
   background-color: #ffffff;
 }
@@ -752,9 +757,6 @@ body {
   );
 }
 
-.conteiner-color {
-}
-
 .border-portfolio-img {
   border-top: none;
   border-left: 1px solid #eeeeee;
@@ -767,51 +769,21 @@ body {
   padding-top: 20px;
   padding-bottom: 20px;
 }
-.border-portfolio-img:hover,
-.border-portfolio-img:focus {
-  box-shadow: 1px 5px 1px rgba(238, 238, 238, 1);
+
+.box-shadow:hover,
+.box-shadow:focus {
+  box-shadow: 6px 1px 4px rgba(0, 0, 0, 0.16), 4px 0px 4px rgba(0, 0, 0, 0.06),
+    1px 0px 1px rgba(0, 0, 0, 0.12);
 }
-.images-portfolio:hover,
-.images-portfolio:focus {
-  box-shadow: 1px 5px 1px rgba(238, 238, 238, 1);
-}
+
 .border-portfolio-taitle {
   margin-bottom: 4px;
 }
 
 /*.img-card:not(:nth-child(3n)) {
   margin-right: 30px;
-}
-/* Не можу зрозуміти, чому лише таким чином нормально виставляє картинки! ЩО ЦЕ ТАКЕ?! Я в шоці*/
-/*.images-list-portfolio :not(:nth-child(3n)) {
-  img-card {
-    flex-basis: calc ((100%-60px) / 3);
-  }
 }*/
-/*=== З таким оформленням кнопки не працює*/
-/* .conteiner-color {
-  background-color: #ffffff;
-}*/
-/*.border-portfolio-img {
-  border-top: none;
-  border-left: 1px solid #eeeeee;
-  border-right: 1px solid #eeeeee;
-  border-bottom: 1px solid #eeeeee;
-  background-color: #ffffff;
 
-  padding-top: 20px;
-  padding-bottom: 20px;
-}
-
-
-
-.border-portfolio-taitle {
-  padding-bottom: 4px;
-   padding-left: 22px;
-
-.border-sabsection-portfolio {
-  padding-left: 22px;
-}*/
 .title-portfolio {
   font-weight: 700;
   font-size: 18px;
