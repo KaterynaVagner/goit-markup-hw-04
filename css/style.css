@@ -439,14 +439,11 @@ body {
   border: 1px solid #afb1b8;
   border-radius: 4px;
   background-color: #ffffff;
-}
-
-.regular-client-logo {
   fill: #afb1b8;
 }
 .button-regular-client:hover,
 .button-regular-client:focus {
-  color: var(--accent-color);
+  fill: var(--accent-color);
   border-color: var(--accent-color);
 }
 
