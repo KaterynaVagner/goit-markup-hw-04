@@ -107,8 +107,6 @@ body {
   line-height: 1.14;
   letter-spacing: 0.02em;
   color: #212121;
-  /* padding-top: 32px;*/
-  /* padding-bottom: 32px;*/
 }
 .site-nav:hover,
 .site-nav:focus {
@@ -141,12 +139,12 @@ body {
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.02em;
-  color: var(--accent-color);
+  color: #757575;
   margin-right: 50px;
 }
 .auth-nav-email:hover,
 :focus {
-  color: #000000;
+  color: var(--accent-color);
 }
 /*================================/EMAIL=========================================*/
 
@@ -257,7 +255,7 @@ body {
 /*===========================HERO*/
 /* DESCRIPTION=======================================*/
 .description-conteiner {
-  color: #f5f5f5;
+  background-color: #fff;
   padding-top: 95px;
   /* padding-bottom: 95px;*/
 }
@@ -393,6 +391,7 @@ body {
   border-radius: 50%;
   background-color: #ffffff;
 }
+
 .social-list {
   display: flex;
   justify-content: center;
@@ -402,6 +401,7 @@ body {
 .social-list-link:focus {
   background-color: var(--accent-color);
 }
+
 .social-list-icon {
   fill: #afb1b8;
 }
@@ -441,23 +441,19 @@ body {
   background-color: #ffffff;
 }
 
-.button-regular-client:hover,
-.button-regular-client:focus {
-  border-color: var(--accent-color);
+.regular-client-logo {
+  fill: #afb1b8;
 }
+.button-regular-client:hover .regular-client-logo,
+.button-regular-client:focus .regular-client-logo {
+  fill: var(--accent-color);
+  border-radius: var(--accent-color);
+}
+
 .regular-client-list {
   display: flex;
   justify-content: center;
   gap: 30px;
-}
-
-.regular-client-logo {
-  fill: #afb1b8;
-}
-
-.regular-client-logo:hover,
-.regular-client-logo:focus {
-  fill: var(--accent-color);
 }
 
 /*===================================LOGO====================================*/
