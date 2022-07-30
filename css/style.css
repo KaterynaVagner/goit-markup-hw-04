@@ -444,10 +444,10 @@ body {
 .regular-client-logo {
   fill: #afb1b8;
 }
-.button-regular-client:hover .regular-client-logo,
-.button-regular-client:focus .regular-client-logo {
-  fill: var(--accent-color);
-  border-radius: var(--accent-color);
+.button-regular-client:hover,
+.button-regular-client:focus {
+  color: var(--accent-color);
+  border-color: var(--accent-color);
 }
 
 .regular-client-list {
